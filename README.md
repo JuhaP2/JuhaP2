@@ -1,4 +1,4 @@
-## Hi there! 👋 I'm [Juha Pulkka]  
+## Hi there! 👋 I'm Juha Pulkka
 
 ### 🚀 About Me
 I'm a passionate **software developer** with experience in **game development, mobile apps, and web technologies**. I love solving problems and building cool projects!  
