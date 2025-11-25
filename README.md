@@ -11,9 +11,9 @@ I'm a passionate **software developer** with experience in **game development, m
 ### 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=juhap2&show_icons=true&theme=tokyonight)  
 
-### 📫 Get in Touch
-- 📧 Email: juha.pulkkaa@gmail.com
-https://juhapulkka.com/
+📫 Get in Touch
+📧 Email: juha.pulkkaa@gmail.com
+🌐 Website: juhapulkka.com
 
 ---  
 ⭐️ *Feel free to check out my repositories and contribute!*
