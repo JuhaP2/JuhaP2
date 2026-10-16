@@ -42,7 +42,7 @@ public class Juha : Developer
 
 | Project | What it does |
 | --- | --- |
-| 🧱 [**Contribution Tetris**](https://github.com/JuhaP2/contribution-tetris) | A real game of Tetris built from your GitHub contributions, like the one below |
+| 🧱 [**Contribution Tetris**](https://github.com/JuhaP2/contribution-tetris) | Real Tetris and a retro space shooter with a boss, built from your GitHub contributions, like the ones below |
 | 🌌 [**Aurora Banner**](https://juhap2.github.io/aurora-banner/) | Make an animated northern-lights banner like mine in 30 seconds |
 
 ---
@@ -71,6 +71,10 @@ public class Juha : Developer
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/tetris-light.svg" />
     <img alt="Contribution tetris" src="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/tetris-dark.svg" />
   </picture>
+</p>
+
+<p align="center">
+  <img alt="Contribution Invaders" src="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/invaders.svg" width="100%" />
 </p>
 
 ---
