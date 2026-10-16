@@ -38,6 +38,13 @@ public class Juha : Developer
 - 🪞 Built [**MagicMirror**](https://github.com/JuhaP2/MagicMirror) modules that read ChatGPT answers aloud
 - 🛠️ I enjoy contributing to open source
 
+### 🧪 Things I've made for you
+
+| Project | What it does |
+| --- | --- |
+| 🧱 [**Contribution Tetris**](https://github.com/JuhaP2/contribution-tetris) | A real game of Tetris built from your GitHub contributions, like the one below |
+| 🌌 [**Aurora Banner**](https://juhap2.github.io/aurora-banner/) | Make an animated northern-lights banner like mine in 30 seconds |
+
 ---
 
 ### 🧰 Tech stack
