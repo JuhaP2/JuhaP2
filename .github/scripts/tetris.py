@@ -26,6 +26,7 @@ TICK = 0.035           # seconds per move/drop step
 LOCK = 0.08            # pause before a piece locks
 CLEAR = 0.3            # line clear flash time
 HOLD = 2.5             # seconds the final board stays up
+AUTHOR = "@JuhaP2"     # made by tag, intentionally not taken from the user argument
 
 BASE = {
     "I": [(0, 1), (1, 1), (2, 1), (3, 1)],
@@ -246,6 +247,8 @@ def render(pieces, cells, clears, cycle, total_lines, total, theme):
         for r in range(ROWS) for c in range(COLS)
     )
     out.append(f'<g fill="{th["grid"]}" opacity=".45">{grid}</g>')
+    out.append(f'<text x="{BX + COLS * S / 2}" y="{BY + ROWS * S / 2}" font-size="20" fill="{th["text"]}" opacity=".12" '
+               f'text-anchor="middle" transform="rotate(-90 {BX + COLS * S / 2} {BY + ROWS * S / 2})">{AUTHOR}</text>')
 
     def block(x, y, color):
         return (f'<rect x="{x + 1}" y="{y + 1}" width="{S - 2}" height="{S - 2}" rx="2" fill="{color}"/>'
@@ -291,7 +294,8 @@ def render(pieces, cells, clears, cycle, total_lines, total, theme):
     out.append(f'<rect x="{px}" y="{BY + 52}" width="80" height="56" rx="6" fill="{th["board"]}" stroke="{th["grid"]}" stroke-width="2"/>')
     out.append(f'<text x="{px}" y="{BY + 140}" font-size="10" fill="{th["text"]}">SCORE</text>')
     out.append(f'<text x="{px}" y="{BY + 196}" font-size="10" fill="{th["text"]}">LINES</text>')
-    out.append(f'<text x="{px}" y="{HEIGHT - 22}" font-size="8" fill="{th["text"]}" opacity=".7">score = contributions</text>')
+    out.append(f'<text x="{px}" y="{HEIGHT - 38}" font-size="8" fill="{th["text"]}" opacity=".7">score = contributions</text>')
+    out.append(f'<text x="{px}" y="{HEIGHT - 22}" font-size="11" fill="{th["accent"]}">by {AUTHOR}</text>')
 
     # Next-piece preview, one group per piece lifetime.
     for i, p in enumerate(pieces):
@@ -322,7 +326,7 @@ def render(pieces, cells, clears, cycle, total_lines, total, theme):
     if not clears:
         out.append(f'<text x="{px}" y="{BY + 166}" font-size="22" fill="{th["value"]}">{total:,}</text>')
 
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" width="{WIDTH}" height="{HEIGHT}">'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" data-author="JuhaP2" viewBox="0 0 {WIDTH} {HEIGHT}" width="{WIDTH}" height="{HEIGHT}">'
             f"<style>{''.join(css)}</style>{''.join(out)}</svg>")
 
 
