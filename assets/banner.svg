@@ -17,6 +17,8 @@
       .wave  { animation: drift 9s ease-in-out infinite alternate; }
       .wave2 { animation: drift 12s ease-in-out infinite alternate-reverse; }
       .fade  { opacity: 0; animation: fade 1.4s ease-out .2s forwards; }
+      .fade2 { opacity: 0; animation: fade 1.4s ease-out .7s forwards; }
+      .slogan { font: italic 500 24px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #2EE6A6; letter-spacing: 1px; }
       .star  { fill: #EAF6FF; animation: twinkle 3s ease-in-out infinite; }
       @keyframes drift { from { transform: translateX(-40px); } to { transform: translateX(40px); } }
       @keyframes fade { to { opacity: 1; } }
@@ -38,5 +40,6 @@
   </g>
   <path fill="#0B1E3A" opacity=".9" d="M0 194L60 150L95 172L150 120L205 168L240 146L300 178L0 200Z"/>
   <path fill="#0B1E3A" opacity=".9" d="M1200 194L1150 140L1110 170L1060 118L1010 165L970 145L920 180L1200 200Z"/>
-  <g class="fade"><text class="title" x="600" y="112" text-anchor="middle">Juha Pulkka</text></g>
+  <g class="fade"><text class="title" x="600" y="98" text-anchor="middle">Juha Pulkka</text></g>
+  <g class="fade2"><text class="slogan" x="600" y="140" text-anchor="middle">Code with sisu. Ship with style.</text></g>
 </svg>
