@@ -60,9 +60,9 @@ public class Juha : Developer
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/snake-light.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/tetris-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/tetris-light.svg" />
+    <img alt="Contribution tetris" src="https://raw.githubusercontent.com/JuhaP2/JuhaP2/output/tetris-dark.svg" />
   </picture>
 </p>
 
