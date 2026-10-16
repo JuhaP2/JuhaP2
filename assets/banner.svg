@@ -14,13 +14,9 @@
     <filter id="blur" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
     <style>
       .title { font: 800 64px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #EAF6FF; letter-spacing: 3px; }
-      .slogan { font: italic 500 24px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #2EE6A6; letter-spacing: 1px; }
-      .desc  { font: 500 15px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #A9C7E8; letter-spacing: 4px; }
       .wave  { animation: drift 9s ease-in-out infinite alternate; }
       .wave2 { animation: drift 12s ease-in-out infinite alternate-reverse; }
       .fade  { opacity: 0; animation: fade 1.4s ease-out .2s forwards; }
-      .fade2 { opacity: 0; animation: fade 1.4s ease-out .7s forwards; }
-      .fade3 { opacity: 0; animation: fade 1.4s ease-out 1.2s forwards; }
       .star  { fill: #EAF6FF; animation: twinkle 3s ease-in-out infinite; }
       @keyframes drift { from { transform: translateX(-40px); } to { transform: translateX(40px); } }
       @keyframes fade { to { opacity: 1; } }
@@ -42,7 +38,5 @@
   </g>
   <path fill="#0B1E3A" opacity=".9" d="M0 194L60 150L95 172L150 120L205 168L240 146L300 178L0 200Z"/>
   <path fill="#0B1E3A" opacity=".9" d="M1200 194L1150 140L1110 170L1060 118L1010 165L970 145L920 180L1200 200Z"/>
-  <g class="fade"><text class="title" x="600" y="88" text-anchor="middle">Juha Pulkka</text></g>
-  <g class="fade2"><text class="slogan" x="600" y="128" text-anchor="middle">Code with sisu. Ship with style.</text></g>
-  <g class="fade3"><text class="desc" x="600" y="160" text-anchor="middle">GAMES  •  MOBILE APPS  •  AI &amp; AUTOMATION</text></g>
+  <g class="fade"><text class="title" x="600" y="112" text-anchor="middle">Juha Pulkka</text></g>
 </svg>
